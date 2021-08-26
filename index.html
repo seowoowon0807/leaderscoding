@@ -2,49 +2,37 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>mother fucker</title>
-    <style media="screen">
-      h1{
-        border-bottom : 5px  gray solid;
-        text-align: center;
-        padding:10px;
-      }
-      ol{
-        border-right:5px red solid;
-        width: 100px;
-        margin:0;
-        padding:20px;
-      }
-      .sn{
-        border : 5px red; solid
-      }
-      #fuckyou{
-        border: 10px pink solid;
-      }
-      #grid{
-        border: 5px solid pink;
-        display:grid;
-        grid-template-columns: 150px 1fr;
-      }
-    </style>
+    <title>Skul The Hero Slayer</title>
+<style media="screen">
+  body{
+    background:
+    no-repeat fixed
+    url('1.jpg')
+    center;
+  }
+   .btn{
+     text-align:center;
+     margin:15px;
+     padding:15px;
+   }
+</style>
+<script type="text/javascript">
+  function btn_info_click(){
+    alert('인포 버튼이 눌러졌습니다.');
+    location.href="info.html"
+  }
+  function btn_video_click(){
+    alert('비디오 버튼이 눌러졌습니다.');
+  }
+
+</script>
   </head>
   <body>
-    <h1><a href="web.html">Web</a></h1>
-    <ol>
-      <li><a href="2.html">1.Html</a></li>
-      <li><a href="1.html">2.Css</a></li>
-      <li><a href="3.html">3.JavaScript</a> </li>
-
-    </ol>
-    <br><br><br>
-    <div id="fuckyou">
-     오늘 소개할 것:
-     <span class="sn">
-      이건빵 </span>
-      <span class="sn">
-      특: 여친한테 차임, 변태
-    </span>
-
+    <div class="btn">
+      <input type="button" name="" value="1.설명" onclick="btn_info_click();">
+      <input type="button" name="" value="2.게임영상" onclick="btn_video_click();">
     </div>
+
+
   </body>
 </html>
